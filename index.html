@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9</title>
+    <!-- paper css cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <!-- animate css library cdn link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- add css linki -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--  -->
+</head>
+<body>
+    <div class="paper container">
+        <h1 class="animate__animated animate__rubberBand animate__repeat-2	">Yan Zhang</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae officia at facilis nam deserunt expedita, voluptatum a labore eos fugit doloremque sapiente distinctio perspiciatis repellat iure quam incidunt ullam nihil.</p>
+        <h2>My projects</h2>
+        <div class="card" style="width: 20rem;">
+            <img src="https://picsum.photos/768" alt="Card example image">
+          
+            <div class="card-body">
+              <h3 class="card-title">Three Star Media</h3>
+              <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              <button class="btn-success">Go to GitHUb</button>
+            </div>
+        </div>
+        <h2>Contact Me</h2>
+        <!-- form to contact -->
+         <form data-aos="fade-down" action="">
+            <div class="form-group">
+                <label for="paperInputs1">Name:</label>
+                <input type="text" placeholder="Jhon" id="paperInputs1">
+              </div>
+              <div class="form-group">
+                <label for="paperInputs2">Email:</label>
+                <input type="text" placeholder="12345@qwe.com" id="paperInputs2">
+              </div>
+              <div class="form-group">
+                <label for="large-input">Your message</label>
+                <textarea id="large-input" placeholder="How can we help you"></textarea>
+              </div>
+              <button class="btn-success">Send</button>
+         </form>
+    </div>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
